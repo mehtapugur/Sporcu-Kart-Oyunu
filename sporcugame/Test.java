@@ -1,13 +1,11 @@
 package sporcugame;
-
 import java.util.ArrayList;
 import javax.swing.JFrame;
 
 public class Test{
     
     public static void main(String[] args) {
-        
-        
+           
     ArrayList<Futbolcu> futbolcuListesi = new ArrayList<>();
     ArrayList<Basketbolcu> basketbolcuListesi = new ArrayList<>();
     Basketbolcu isil = new Basketbolcu("Işıl Alben", "Basketbol");
@@ -68,7 +66,6 @@ public class Test{
     bahar.setSerbestAtis(50);
     bahar.setIcon("bahar.jpg");
     
-   
     Futbolcu cris = new Futbolcu("Cristiano Ronaldo", "Futbol");
     Futbolcu muslera = new Futbolcu("Fernando Muslera", "Futbol");
     Futbolcu melo = new Futbolcu("Felipe Melo", "Futbol");
@@ -126,7 +123,6 @@ public class Test{
     ibrahim.setKaleciKarsiKarsiya(55);
     ibrahim.setSerbestVurus(75);
     ibrahim.setIcon("ibrahim.jpg");
-
     
     UserPage jf = new UserPage(futbolcuListesi,basketbolcuListesi);
     jf.setTitle("Sporcu Kart Oyunu"); 
@@ -134,15 +130,11 @@ public class Test{
     jf.setLayout(null); 
     jf.setLocation(400,50);
     jf.setVisible(true); 
-    jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-     
+    jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);     
     }
-    
-   
+       
     public int pozisyonBilgisi(Sporcu name){
   
         return ((int)((Math.random())*10))%(3);
-    }
-    
-   
+    }   
 } 
