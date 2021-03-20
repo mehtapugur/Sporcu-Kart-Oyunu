@@ -1,5 +1,4 @@
 package sporcugame;
-
 import java.util.ArrayList;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
@@ -114,7 +113,6 @@ public class UserPage extends javax.swing.JFrame {
                 jButton4.setIcon(null);
                 break;
         }
-
         return random;
     }
 
@@ -147,7 +145,6 @@ public class UserPage extends javax.swing.JFrame {
                 jTextField5.setText(String.valueOf(bilgisayarFutbol.get(random).getKaleciKarsiKarsiya()));
                 break;
             }
-
         }
 
         switch (random) {
@@ -164,7 +161,6 @@ public class UserPage extends javax.swing.JFrame {
                 jButton8.setIcon(null);
                 break;
         }
-
         return random;
     }
 
@@ -232,7 +228,6 @@ public class UserPage extends javax.swing.JFrame {
                         break;
                 }
             }
-
             kontrolBasket = false;
             kontrolFutbol = true;
         }
