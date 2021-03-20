@@ -66,11 +66,9 @@ public class Basketbolcu extends Sporcu{
     public void setIcon(String iconAdi){
         this.iconAdi = iconAdi;
     }
-      
-        
+             
     @Override
     public int sporcuPuaniGoster(){
         return 0;
-    }
-    
+    }    
 }
